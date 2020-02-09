@@ -1,0 +1,11 @@
+server: 
+  port: 8900 
+   
+spring:
+  application:
+    name:  microservice-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@152.136.83.139:/home/GitRepo/SpringCloudConfig
